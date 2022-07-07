@@ -13,7 +13,7 @@ class ProductsPage extends Page {
         return $('#flash');
     }
     get pageTitle () {
-        return $('.title');
+        return $('.pagetitle');
     }
 
     get productsList () {
