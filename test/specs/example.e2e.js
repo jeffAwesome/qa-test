@@ -35,7 +35,16 @@ describe('Products List View', () => {
 
     xit('should load a product details page when selecting a product', async() => {
 
-    })
+    });
+
+    xit('clicking on the Sauce Labs Bolt T-Shirt add to cart button should add that product to cart', async() => {
+
+    });
+
+    xit('clicking on the Sauce Labs Bolt T-Shirt remove from cart button should remove that product to cart', async() => {
+
+    });
+
 
 });
 
