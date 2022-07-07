@@ -13,7 +13,7 @@ class ProductsPage extends Page {
         return $('#flash');
     }
     get pageTitle () {
-        return $('.pagetitle');
+        return $('.title');
     }
 
     get productsList () {
@@ -36,5 +36,4 @@ class ProductsPage extends Page {
         return $(`=${name}`)
     }
 }
-
 module.exports = new ProductsPage();
