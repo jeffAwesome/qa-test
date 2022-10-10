@@ -3,13 +3,13 @@
 const LoginPage = require('../pageobjects/login.page');
 const ProductsPage = require('../pageobjects/products.page');
 
-const products = require('../data/test/products.json');
+const productsData = require('../data/test/products.json');
 
 const env = {
     username: 'standard_user',
     password: 'secret_'
 }
-const productsList = products.products
+const productsList = productsData.products
 
 describe('My store', () => {
     it('should load login page with valid form fields', async() => {
